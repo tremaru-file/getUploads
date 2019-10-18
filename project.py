@@ -33,7 +33,7 @@ def rewrite(name):
 try:
 
     # пробуем открыт файл
-    myfile = open('vids.txt', 'r')
+    myfile = open(filename, 'r')
 
 # если файл не найден
 except FileNotFoundError:
